@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: hustlerhimanshu/application:v2
+        image: hustlerhimanshu/goaltracking:v1
         imagePullPolicy: Always
         env:
         - name: DB_USERNAME
